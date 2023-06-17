@@ -1,0 +1,19 @@
+/* Custom property */
+:root {
+  /* colors */
+  --gold-crayola: hsl(38, 61%, 73%);
+  --quick-silver: hsla(0, 0%, 65%, 1);
+  --davys-grey: hsla(30, 3%, 34%, 1);
+  --first-color: hsla(204, 88%, 53%, 1);
+  --second-color: hsla(204, 11%, 18%, 1);
+  --grey-dark: hsla(204, 11%, 45%, 1);
+  --grey-lite: hsla(205, 20%, 83%. 1);
+
+  --blue-dark: hsla(237, 33%, 22%, 1);
+  --beige: hsla(44, 41%, 93%, 1);
+  --ambar-dark: hsla(44, 88%, 53%, 1);
+
+  --white: hsla(0, 0%, 100%, 1);
+
+  --black: hsla(0, 0%, 0%, 1);
+}
