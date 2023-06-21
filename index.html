@@ -21,7 +21,15 @@
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <!-- css link-->
     <link rel="stylesheet" href="assets/css/style.css" />
+
     <!-- Pre load -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preload" as="image" href="assets/img/hero-slider_1.jpg" />
     <link rel="preload" as="image" href="assets/img/hero-slider_2.jpg" />
     <link rel="preload" as="image" href="assets/img/hero-slider_3.jpg" />
@@ -32,6 +40,66 @@
       <div class="circle"></div>
       <p class="text">Cavas <br />Servicios Generales</p>
     </div>
+
+    <!-- top barra -->
+    <div class="topbar">
+      <div class="container">
+        <div class="topbar_item">
+          <i class="fa-brands fa-square-facebook icon"></i>
+        </div>
+        <div class="tobar_item">
+          <i class="fa-brands fa-square-instagram icon"></i>
+        </div>
+        <div class="separator"></div>
+        <a href="tel:+51967859496" class="tobar_item">
+          <i class="fa-solid fa-phone"></i>
+          <span> +51 967 859 496 </span>
+        </a>
+        <a href="mailto:sebasaries15@gamil.com" class="tobar_item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>sebasaries15@gamil.com</span>
+        </a>
+        <a href="mailto:sebasaries15@gamil.com" class="tobar_item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Jr. Diez Canseco 3402 - SMP</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="assets/img/logo_cavas.jpeg"
+            width="160"
+            height="50"
+            alt="Cavas - Home"
+          />
+        </a>
+        <nav class="mavbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toogler>
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="assets/img/logo_cavas.jpeg"
+              width="160"
+              height="50"
+              alt="Cavas - Home"
+            />
+          </a>
+          <ul class="navbar-list">
+            <li>Inicio</li>
+            <li>Nosotros</li>
+            <li>Servicio</li>
+            <li>Blog</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!-- Script -->
     <script src="assets/js/script.js"></script>
   </body>

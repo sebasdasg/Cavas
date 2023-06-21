@@ -239,3 +239,10 @@ body.nav-active {
     background-position: 0%;
   }
 }
+
+/* TOPBAR */
+.topbar {
+  /* display: none; */
+  background-color: var(--first-color);
+  color: var(--second-color);
+}
