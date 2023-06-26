@@ -47,7 +47,7 @@
         <div class="topbar_item">
           <i class="fa-brands fa-square-facebook icon"></i>
         </div>
-        <div class="tobar_item">
+        <div class="topbar_item">
           <i class="fa-brands fa-square-instagram icon"></i>
         </div>
         <div class="separator"></div>
@@ -55,11 +55,11 @@
           <i class="fa-solid fa-phone"></i>
           <span> +51 967 859 496 </span>
         </a>
-        <a href="mailto:sebasaries15@gamil.com" class="tobar_item">
+        <a href="mailto:sebasaries15@gamil.com" class="topbar_item">
           <i class="fa-solid fa-envelope"></i>
           <span>sebasaries15@gamil.com</span>
         </a>
-        <a href="mailto:sebasaries15@gamil.com" class="tobar_item">
+        <a href="mailto:sebasaries15@gamil.com" class="topbar_item">
           <i class="fa-solid fa-location-dot"></i>
           <span>Jr. Diez Canseco 3402 - SMP</span>
         </a>
@@ -69,37 +69,201 @@
     <!-- Header -->
     <header class="header" data-header>
       <div class="container">
-        <a href="#" class="logo">
+        <a href="#" class="logo_first">
           <img
-            src="assets/img/logo_cavas.jpeg"
+            src="assets/img/logo_cavas_first.png"
             width="160"
             height="50"
             alt="Cavas - Home"
           />
+          <div class="name-logo">
+            <p class="name-first">CAVAS</p>
+            <p class="description-logo">Servicios Generales</p>
+          </div>
         </a>
-        <nav class="mavbar" data-navbar>
+        <nav class="navbar" data-navbar>
           <button class="close-btn" aria-label="close menu" data-nav-toogler>
             <i class="fa-solid fa-xmark"></i>
           </button>
 
           <a href="#" class="logo">
             <img
-              src="assets/img/logo_cavas.jpeg"
+              src="assets/img/logo_cavas.png"
               width="160"
               height="50"
               alt="Cavas - Home"
             />
           </a>
+
           <ul class="navbar-list">
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Servicio</li>
-            <li>Blog</li>
-            <li>Contacto</li>
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Inicio</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Nosotros</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Servicios</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Blog</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underlines">
+                <div class="separator"></div>
+
+                <span class="span">Contacto</span>
+              </a>
+            </li>
           </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visitanos</p>
+
+            <div class="social">
+              <div class="social_item">
+                <i class="fa-brands fa-square-facebook icon"></i>
+              </div>
+              <div class="social_item">
+                <i class="fa-brands fa-square-instagram icon"></i>
+              </div>
+            </div>
+
+            <a href="mailto:dsebastian@canvia.com" class="sidebar-link"
+              >dsebastian@canvia.com</a
+            >
+            <div class="separator"></div>
+
+            <a
+              href="tel:+51923464217"
+              class="body-1 contact-number hover-underline"
+              >+51 923 464 217</a
+            >
+          </div>
         </nav>
+        <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Find a table</span>
+          <span class="text text-1" aria-hidden="true">Find a table</span>
+        </a>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toogler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+        <div class="overlay" data-nav-toogler data-overlay></div>
       </div>
     </header>
+
+    <main>
+      <article>
+        <!-- #hero -->
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/img/hero-slider_1.jpg"
+                  width="1880"
+                  height="950"
+                  class="img-cover"
+                />
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">Nosotros</p>
+              <h1 class="display-1 hero-title slider-reveal">
+                El mejor servicio en repraciones
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Restauramos tus artefactos con habilidad y cuidado
+                excepcionales.
+              </p>
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Conocer Más</span>
+                <span class="text text-2" aria-hidden="true">Conocer Más</span>
+              </a>
+            </li>
+
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/img/hero-slider_2.jpg"
+                  width="1880"
+                  height="950"
+                  class="img-cover"
+                />
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">Servicios</p>
+              <h1 class="display-1 hero-title slider-reveal">
+                Transformamos la avería en una renovación brillante y sin igual
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Ofrecemos una amplia gama de servicios de reparación de
+                artefactos
+              </p>
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Conocer Más</span>
+              </a>
+            </li>
+
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/img/hero-slider_3.jpg"
+                  width="1880"
+                  height="950"
+                  class="img-cover"
+                />
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">Contactanos</p>
+              <h1 class="display-1 hero-title slider-reveal">
+                ¡Estamos aquí para ayudarte en cada paso del camino!
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Tu satisfacción es nuestro compromiso, contáctanos y compruébalo
+              </p>
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Conocer Más</span>
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+
+          <!--  <a href="#" class="hero-btn has-after">
+            <img src="" alt="">
+          </a> -->
+        </section>
+      </article>
+    </main>
     <!-- Script -->
     <script src="assets/js/script.js"></script>
   </body>
